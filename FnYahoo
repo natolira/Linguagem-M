@@ -1,6 +1,6 @@
 // FnYahoo
 // Função Criada por Renato Lira                                
-(DataInicial as date, DataFinal as date, Ticker as text) =>
+(DataInicial as date, DataFinal as date, Ticker as text) as table =>
   let
     FnTransformaEpoch = (Data as date) =>
       let
