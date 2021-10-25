@@ -1,6 +1,6 @@
 // FnTransformaEpoch
 // Função Criada por Renato Lira
-(Data as date) => 
+(Data as date) as text => 
 let
     Fonte = #datetime(1970, 1, 1, 0, 0, 0),
     Duracao = DateTime.From(Data) - Fonte,
