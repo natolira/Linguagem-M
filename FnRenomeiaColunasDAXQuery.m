@@ -1,5 +1,8 @@
 // FnRenomeiaColunasDAXQuery
 // Função Criada por Renato Lira  
+// Última atualização em 30/11/2021
+// Função que renomeia todas as colunas de uma tabela mantendo apenas os valores entre []
+// Exemplo: Tabela[Coluna] vira Coluna
 (tbl as table) as table =>
   let
     NomesColunas  = Table.ColumnNames(tbl), 
