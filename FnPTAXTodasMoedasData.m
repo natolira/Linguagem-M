@@ -5,7 +5,6 @@
 
 (data) as table =>           
 let
-  data = Inicio,
   Fonte = Csv.Document(
     Web.Contents(
       "https://www4.bcb.gov.br/",
