@@ -1,4 +1,4 @@
-// FnLimpaTexto
+// FnCriaNumeroIndice
 // Função Criada por Renato Lira
 // Atualizada em 02/11/2021
 // Primeiro Argumento: Tabela com coluna ORDENADA por data e números de variações em relação ao período anterior
