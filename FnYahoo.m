@@ -2,6 +2,9 @@
 // Função Criada por Renato Lira                                
 // Última atualização em 30/10/2021
 // Função que retorna valores extraídos do Yahoo Finance de um ticker para um período de datas
+// !!! Método não oficial de obtenção de dados sujeito a API throttling 
+// Recomendado rodar essa rotina com uso de atualização incremental no Power BI Serviço
+// !!! Não rodar essa rotina múltiplas vezes ao dia. Rodar apenas 1x ao dia após o fechamento dos mercados.
 
 (Ticker as text, DataInicial as date, DataFinal as date) as table =>
   let
