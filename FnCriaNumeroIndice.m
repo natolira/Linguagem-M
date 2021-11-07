@@ -1,5 +1,6 @@
 // FnCriaNumeroIndice
 // Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
 // Atualizada em 02/11/2021
 // Primeiro Argumento: Tabela com coluna ORDENADA por data e números de variações em relação ao período anterior
 // Segundo Argumento: nome da coluna com valores de variações em relação ao período anterior
