@@ -1,5 +1,6 @@
 // FnYahoo
-// Função Criada por Renato Lira                                
+// Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M                           
 // Última atualização em 30/10/2021
 // Função que retorna valores extraídos do Yahoo Finance de um ticker para um período de datas
 // !!! Método não oficial de obtenção de dados sujeito a API throttling 
