@@ -1,5 +1,6 @@
 // FnTransformaEpoch
 // Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
 // Última atualização em 30/10/2021
 // Transforma uma entrada no formato date ou datetime no formado de data/hora Epoch no formato texto
 // Utilizado no WebScrapping do Yahoo Finance
