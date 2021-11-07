@@ -1,5 +1,6 @@
 // FnRenomeiaColunasDAXQuery
-// Função Criada por Renato Lira  
+// Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
 // Última atualização em 30/10/2021
 // Função que renomeia todas as colunas de uma tabela mantendo apenas os valores entre []
 // Exemplo: Tabela[Coluna] vira Coluna
