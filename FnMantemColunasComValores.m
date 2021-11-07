@@ -1,5 +1,6 @@
 // FnMantemColunasComValores
 // Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
 // Última atualização em 07/11/2021
 // A partir de uma tabela (normalmente extraída do Excel) seleciona apenas colunas com valores
 
@@ -23,6 +24,6 @@
       MantemApenasNaoNulos,
       each (List.Count([ValoresNaoNulos]) > 0)
     ),
-    SelecionaColunasNaoNulas = Table.SelectColumns(Tabela, MantemApenasNaoNulos[Column1])
+    SelecionaColunasNaoNulas = Table.SelectColumns(Tabela, ApenasColunasNaoNulas[Column1])
   in
     SelecionaColunasNaoNulas
