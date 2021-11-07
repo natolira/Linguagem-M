@@ -1,4 +1,4 @@
-// FnLimpaTexto
+// FnLimpaTextoTabela
 // Função Criada por Renato Lira
 // Atualizada em 30/10/2021
 // Recebe um uma tabela e remove caracteres de controle e espaços em excesso (no início, meio ou fim do texto) das colunas marcadas como texto
