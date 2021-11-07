@@ -1,5 +1,6 @@
 // FnExtraiSGS
 // Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
 // Atualizada em 02/11/2021
 // Primeiro Argumento: número da série do SGS conforme https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries
 // Segundo Argumento (opcional): data inicial a partir da qual os dados serão retornados
