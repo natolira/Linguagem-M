@@ -1,5 +1,6 @@
 // FnPTAXTodasMoedasData
-// Função Criada por Renato Lira                                
+// Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M                          
 // Última atualização em 31/10/2021
 // Função que retorna valores extraídos do BACEN com cotações para BRL e USD compatíves com PTAX
 
