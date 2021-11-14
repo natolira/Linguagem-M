@@ -1,7 +1,7 @@
 // FnCriaNumeroIndice
 // Função Criada por Renato Lira
 // Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
-// Atualizada em 02/11/2021
+// Atualizada em 14/11/2021
 // Primeiro Argumento: Tabela com coluna ORDENADA por data e números de variações em relação ao período anterior
 // Segundo Argumento: nome da coluna com valores de variações em relação ao período anterior
 // Terceiro Argumento: Tipo do valor 
@@ -28,13 +28,13 @@
             1
       )
     ), 
-    Aux = Table.AddIndexColumn(Fonte, "linha", 1, 1, Int64.Type), 
+    Aux = Table.AddIndexColumn(Fonte, "__linha", 1, 1, Int64.Type), 
     CalculaÍndice = Table.AddColumn(
       Aux, 
       novacoluna ?? "Número Índice", 
-      each List.Product(List.FirstN(lista, [linha])), 
+      each List.Product(List.FirstN(lista, [__linha])), 
       type number
     ), 
-    Resultado = Table.RemoveColumns(CalculaÍndice, {"linha"})
+    Resultado = Table.RemoveColumns(CalculaÍndice, {"__linha"})
   in
     Resultado
