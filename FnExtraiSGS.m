@@ -1,7 +1,7 @@
 // FnExtraiSGS
 // Função Criada por Renato Lira
 // Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
-// Atualizada em 02/11/2021
+// Atualizada em 23/11/2021
 // Primeiro Argumento: número da série do SGS conforme https://www3.bcb.gov.br/sgspub/localizarseries/localizarSeries.do?method=prepararTelaLocalizarSeries
 // Segundo Argumento (opcional): data inicial a partir da qual os dados serão retornados
 // Terceiro Argumento (opcional):  data final a partir da qual os dados serão retornados
@@ -10,7 +10,7 @@
 // Recomendado rodar essa rotina com uso de atualização incremental no Power BI Serviço
 // !!! Não rodar essa rotina múltiplas vezes ao dia. Rodar apenas 1x ao dia às 13:30, horário em que o dólar PTAX é divulgado.
 
-(serie, inicio, fim) as table =>
+(serie, optional inicio, optional fim) as table =>
   let
     BinarioInteiro = Web.Contents(
       "http://api.bcb.gov.br/",
