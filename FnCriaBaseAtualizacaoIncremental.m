@@ -71,14 +71,7 @@ let
     ChamarFuncao = 
         FnCriaBaseAtualizacaoIncremental(RangeStart, RangeEnd, grao)
 in
-    FunctionCall "
-
-
-
-
-
-
-                  ,
+    FunctionCall ",
         Result = "Coluna Período com os valores: "
           & Text.Combine(
             List.Transform(
