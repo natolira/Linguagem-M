@@ -46,7 +46,7 @@ let
       output = Table.AddColumn(
         Table.AddColumn(distinto, "DUMMY", each DateTime.From(menordata), type datetime),
         "Atualizado em",
-        each DateTIme.LocalNow(),
+        each DateTime.LocalNow(),
         type datetime
       )
     in
