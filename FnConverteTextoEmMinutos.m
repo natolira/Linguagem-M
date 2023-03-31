@@ -1,4 +1,7 @@
 // FnConverteTextoEmMinutos
+// Função Criada por Renato Lira
+// Buscar versões atualizadas em: https://github.com/natolira/Linguagem-M
+// Atualizada em 31/03/2023
 // Aceita texto por extenso, ex: 2 dias 20 horas 1 minuto
 // e transforma na respectica quantidade em minutos
 (texto as text) as number =>
